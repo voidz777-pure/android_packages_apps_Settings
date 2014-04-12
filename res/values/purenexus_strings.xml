@@ -24,7 +24,7 @@
     <string name="header_category_custom">Rom Control</string>
     <string name="supersu_title">SuperSU</string>
     <string name="custom_settings_title">PureNexus Settings</string>
-    <string name="bitsyko_layers">Layers Manager</string>
+    <string name="themes_settings_title">Themes</string>
   <!-- General strings -->
     <string name="reset">Reset</string>
     <string name="add">Add</string>
