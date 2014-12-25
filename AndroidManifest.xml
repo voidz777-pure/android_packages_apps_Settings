@@ -2492,6 +2492,30 @@
                 android:value="com.pure.settings.PureSettings" />
         </activity>
 
+        <activity android:name="Settings$HeadsUpSettingsActivity"
+                android:label="@string/headsup_settings_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.pure.settings.fragments.HeadsUpSettings" />
+            <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/display_settings" />
+        </activity>
+
+        <activity-alias android:name=".nexus.HeadsUpSettings"
+                  android:label="@string/headsup_settings_title"
+                  android:clearTaskOnLaunch="true"
+                  android:exported="true"
+                  android:targetActivity="Settings$HeadsUpSettingsActivity">
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.pure.settings.fragments.HeadsUpSettings" />
+            <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/display_settings" />
+        </activity-alias>
+
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title"
                 android:exported="false"
