@@ -53,4 +53,7 @@
     <color name="storage_summary_text_color">#ff607d8b</color>
     <color name="storage_summary_used_text_color">#8a000000</color>
     <color name="floating_action_button_touch_tint">#80ffffff</color>
+    <!-- BlackList colors -->
+    <color name="blacklist_enabled">#DD2C00</color>
+    <color name="blacklist_disabled">#D7D7D7</color>
 </resources>
