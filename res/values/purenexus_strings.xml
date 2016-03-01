@@ -26,6 +26,7 @@
     <string name="custom_settings_title">PureNexus Settings</string>
     <string name="themes_settings_title">Themes</string>
     <string name="google_title">Google</string>
+    <string name="bitsyko_layers">Layers Manager</string>
   <!-- General strings -->
     <string name="reset">Reset</string>
     <string name="add">Add</string>
