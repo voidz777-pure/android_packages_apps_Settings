@@ -72,6 +72,21 @@
 
     </dashboard-category>
 
+    <!-- Rom Control -->
+    <dashboard-category
+            android:id="@+id/custom_section"
+            android:title="@string/header_category_custom" >
+
+        <!-- Pure Settings -->
+        <dashboard-tile
+                android:id="@+id/custom_settings"
+                android:icon="@drawable/ic_settings_purenexus"
+                android:title="@string/custom_settings_title"
+                android:fragment="com.pure.settings.PureSettings"
+                />
+
+    </dashboard-category>
+
     <!-- DEVICE -->
     <dashboard-category
             android:id="@+id/device_section"
