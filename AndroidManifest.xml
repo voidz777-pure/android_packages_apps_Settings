@@ -2411,6 +2411,8 @@
                 android:value="true" />
         </activity>
 
+        <activity android:name=".notificationlight.NotificationLightSettings" />
+        <activity android:name=".notificationlight.BatteryLightSettings" />
         <!-- Display rotation -->
         <activity android:name="Settings$DisplayRotationActivity"
                 android:label="@string/display_rotation_title"
