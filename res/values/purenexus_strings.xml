@@ -25,6 +25,7 @@
     <string name="supersu_title">SuperSU</string>
     <string name="custom_settings_title">PureNexus Settings</string>
     <string name="bitsyko_layers">Layers Manager</string>
+    <string name="substratum_title">Substratum</string>
   <!-- General strings -->
     <string name="reset">Reset</string>
     <string name="add">Add</string>
