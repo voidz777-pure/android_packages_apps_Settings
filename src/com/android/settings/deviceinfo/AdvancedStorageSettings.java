@@ -95,15 +95,14 @@ public class AdvancedStorageSettings extends SettingsPreferenceFragment
         return false;
     }
 
-    private void updateUsbConfigurationValues(boolean isUnlocked) {
+    private void updateUsbConfigurationValues() {
         if (mUsbConfiguration != null) {
             UsbManager manager = (UsbManager) getSystemService(Context.USB_SERVICE);
 
             String[] values = getResources().getStringArray(R.array.usb_configuration_values);
             String[] titles = getResources().getStringArray(R.array.usb_configuration_titles);
             int index = 0;
-            // Assume if !isUnlocked -> charging, which should be at index 0
-            for (int i = 0; i < titles.length && isUnlocked; i++) {
+            for (int i = 0; i < titles.length; i++) {
                 if (manager.isFunctionEnabled(values[i])) {
                     index = i;
                     break;
@@ -130,8 +129,7 @@ public class AdvancedStorageSettings extends SettingsPreferenceFragment
     private BroadcastReceiver mUsbReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
-            boolean isUnlocked = intent.getBooleanExtra(UsbManager.USB_DATA_UNLOCKED, false);
-            updateUsbConfigurationValues(isUnlocked);
+            updateUsbConfigurationValues();
        }
     };
 }
