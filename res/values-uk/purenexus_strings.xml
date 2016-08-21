@@ -30,44 +30,44 @@
   <!-- Dashboard -->
   <string name="header_category_custom">Rom Control</string>
   <string name="supersu_title">SuperSU</string>
-  <string name="custom_settings_title">PureNexus Settings</string>
+  <string name="custom_settings_title">Налаштування PureNexus</string>
   <string name="bitsyko_layers">Layers Manager</string>
   <string name="substratum_title">Substratum</string>
   <!-- General strings -->
-  <string name="reset">Reset</string>
-  <string name="add">Add</string>
+  <string name="reset">Скинути</string>
+  <string name="add">Додати</string>
   <string name="choose_app">Choose app</string>
   <!-- Notification/Battery lights -->
   <string name="edit_light_settings">Edit light settings</string>
   <string name="pulse_speed_title">Pulse length and speed</string>
   <string name="default_time">Normal</string>
   <string name="custom_time">Custom</string>
-  <string name="dialog_delete_title">Delete</string>
-  <string name="dialog_delete_message">Remove selected item?</string>
-  <string name="pulse_length_always_on">Always on</string>
-  <string name="pulse_length_very_short">Very short</string>
+  <string name="dialog_delete_title">Видалити</string>
+  <string name="dialog_delete_message">Видалити обраний елемент?</string>
+  <string name="pulse_length_always_on">Завжди увімкнено</string>
+  <string name="pulse_length_very_short">Дуже коротко</string>
   <string name="pulse_length_short">Short</string>
   <string name="pulse_length_normal">Normal</string>
-  <string name="pulse_length_long">Long</string>
-  <string name="pulse_length_very_long">Very long</string>
-  <string name="pulse_speed_very_fast">Very fast</string>
-  <string name="pulse_speed_fast">Fast</string>
+  <string name="pulse_length_long">Довгий</string>
+  <string name="pulse_length_very_long">Дуже довгий</string>
+  <string name="pulse_speed_very_fast">Дуже швидкий</string>
+  <string name="pulse_speed_fast">Швидкий</string>
   <string name="pulse_speed_normal">Normal</string>
-  <string name="pulse_speed_slow">Slow</string>
+  <string name="pulse_speed_slow">Повільний</string>
   <string name="pulse_speed_very_slow">Very slow</string>
-  <string name="battery_light_title">Battery light</string>
+  <string name="battery_light_title">Індикація батареї</string>
   <string name="battery_low_pulse_title">Pulse if battery low</string>
   <string name="battery_light_list_title">Colors</string>
   <string name="battery_light_low_color_title">Battery low</string>
-  <string name="battery_light_medium_color_title">Charging</string>
-  <string name="battery_light_full_color_title">Fully charged</string>
-  <string name="notification_light_title">Notification light</string>
-  <string name="notification_light_general_title">General</string>
-  <string name="notification_light_applist_title">Apps</string>
-  <string name="notification_light_phonelist_title">Phone</string>
+  <string name="battery_light_medium_color_title">Заряджається</string>
+  <string name="battery_light_full_color_title">Повністю заряджена</string>
+  <string name="notification_light_title">Індикатор подій</string>
+  <string name="notification_light_general_title">Основні</string>
+  <string name="notification_light_applist_title">Додатки</string>
+  <string name="notification_light_phonelist_title">Телефон</string>
   <string name="notification_light_use_custom">Use custom values</string>
   <string name="notification_light_default_value">Default</string>
-  <string name="notification_light_missed_call_title">Missed call</string>
+  <string name="notification_light_missed_call_title">Пропущений виклик</string>
   <string name="notification_light_voicemail_title">Voicemail</string>
   <string name="allow_lights_title">Lights in do not disturb mode</string>
   <string name="notification_light_screen_on">Lights with screen on</string>
@@ -121,21 +121,21 @@
   <string name="tweak_sum">Misc Tweaks</string>
   <!-- Nexus version -->
   <string name="nexus_version">PureNexus version</string>
-  <string name="nexus_version_default">Unknown</string>
+  <string name="nexus_version_default">Невідомо</string>
   <!-- Vendor version -->
   <string name="vendor_version">Vendor version</string>
   <string name="vendor_version_default">Unknown</string>
   <!-- Build date -->
   <string name="build_date">Build date</string>
-  <string name="build_date_default">2014-01-01-0000</string>
+  <string name="build_date_default">01-01-2014-0000</string>
   <!-- Model Name -->
-  <string name="model_name">Model name</string>
+  <string name="model_name">Модель</string>
   <!-- Phone info shortcut -->
-  <string name="device_info_title">Phone info</string>
+  <string name="device_info_title">Інформація про пристрій</string>
   <!-- Display Settings -->
   <!-- Doze pulse options -->
-  <string name="summary_doze_enabled">Enabled</string>
-  <string name="summary_doze_disabled">Disabled</string>
+  <string name="summary_doze_enabled">Увімкнено</string>
+  <string name="summary_doze_disabled">Вимкнено</string>
   <string name="doze_overwrite_value_title">Overwrite defaults</string>
   <string name="doze_overwrite_value_summary">Allow override of default values with user config</string>
   <string name="doze_pulse_title">User configurable settings</string>
@@ -153,34 +153,34 @@
   <string name="twofifty_ms">250 ms</string>
   <string name="fivehundred_ms_default">500 ms (default)</string>
   <string name="sevenfifty_ms">750 ms</string>
-  <string name="one_second">1 s</string>
-  <string name="onehalf_second">1.5 s</string>
-  <string name="two_second">2 s</string>
-  <string name="twohalf_second">2.5 s</string>
-  <string name="three_second_default">3 s (default)</string>
-  <string name="threehalf_second">3.5 s</string>
-  <string name="four_second">4 s</string>
-  <string name="fourhalf_second">4.5 s</string>
-  <string name="five_second">5 s</string>
+  <string name="one_second">1 с</string>
+  <string name="onehalf_second">1.5 с</string>
+  <string name="two_second">2 с</string>
+  <string name="twohalf_second">2.5 с</string>
+  <string name="three_second_default">3 с (за замовчуванням)</string>
+  <string name="threehalf_second">3.5 с</string>
+  <string name="four_second">4 с</string>
+  <string name="fourhalf_second">4.5 с</string>
+  <string name="five_second">5 с</string>
   <!-- Font size sample text -->
-  <string name="font_size_sample">Font Size</string>
+  <string name="font_size_sample">Розмір шрифту</string>
   <!-- Rotation Modes  -->
   <string name="display_rotation_title">Rotation</string>
-  <string name="display_rotation_disabled">Disabled</string>
-  <string name="display_rotation_unit">degrees</string>
+  <string name="display_rotation_disabled">Вимкнено</string>
+  <string name="display_rotation_unit">градусів</string>
   <string name="display_lockscreen_rotation_title">Rotate lock screen</string>
   <string name="display_rotation_category_title">Rotation modes</string>
   <string name="display_rotation_0_title">0 degrees</string>
   <string name="display_rotation_90_title">90 degrees</string>
   <string name="display_rotation_180_title">180 degrees</string>
-  <string name="display_rotation_270_title">270 degrees</string>
+  <string name="display_rotation_270_title">270 градусів</string>
   <!-- Dashboard settings -->
   <string name="dashboard_category">Dashboard settings</string>
   <string name="dashboard_columns_title">Dashboard Columns</string>
   <string name="dashboard_columns_summary">Change the number of columns displayed in the dashboard</string>
   <string name="dashboard_columns_dialog_title">Select dashboard columns</string>
-  <string name="dashboard_columns_one">One</string>
-  <string name="dashboard_columns_two">Two</string>
+  <string name="dashboard_columns_one">Один</string>
+  <string name="dashboard_columns_two">Два</string>
   <string name="dashboard_columns_three">Three</string>
   <string name="dashboard_tileview_double_lines_title">Dashboard title view</string>
   <string name="dashboard_tileview_double_lines_summary">Show dashboard tile titles in 2 lines</string>
@@ -216,16 +216,16 @@
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
   <string name="power_notifications_ringtone_title">Notification sound</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
-  <string name="power_notifications_ringtone_silent">Silent</string>
+  <string name="power_notifications_ringtone_silent">Без звуку</string>
   <!-- Security Settings -->
   <!-- App ops permissions -->
-  <string name="app_ops_permissions_allowed">Allowed</string>
+  <string name="app_ops_permissions_allowed">Дозволено</string>
   <string name="app_ops_permissions_ignored">Ignored</string>
   <string name="app_ops_permissions_always_ask">Always ask</string>
   <!-- Names of categories of app ops tabs -->
-  <string name="app_ops_categories_location">Location</string>
-  <string name="app_ops_categories_personal">Personal</string>
-  <string name="app_ops_categories_messaging">Messaging</string>
+  <string name="app_ops_categories_location">Місцезнаходження</string>
+  <string name="app_ops_categories_personal">Особисте</string>
+  <string name="app_ops_categories_messaging">Повідомлення</string>
   <string name="app_ops_categories_media">Media</string>
   <string name="app_ops_categories_device">Device</string>
   <string name="app_ops_categories_bootup">Bootup</string>
@@ -396,12 +396,4 @@
   <string name="remove_blacklist_number_title">Remove number</string>
   <string name="remove_blacklist_entry">Do you want to remove this blocked phone number?</string>
   <string name="select_contact">Select contact</string>
-  <!-- Storage settings -->
-  <!-- Advanced storage settings -->
-  <string name="storage_advanced_titlebar">Advanced Storage</string>
-  <string name="storage_menu_advanced">Advanced</string>
-  <!-- USB data automatic unlock -->
-  <string name="usb_data_auto_unlock_title">Unlock USB data</string>
-  <string name="usb_data_auto_unlock_summary">Allow unlocked data access to your phone\'s storage through USB (MTP, PTP)</string>
-  <string name="usb_data_auto_unlock_warning_summary">Your device will establish unprotected connections, everytime you connect it to a PC. Secured lockscreens disable this option automatically.\n\nThis is still an experimental feature, use with caution.</string>
 </resources>

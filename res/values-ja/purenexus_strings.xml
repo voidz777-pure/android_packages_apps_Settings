@@ -17,9 +17,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Application Settings -->
   <!-- Manage applications: show substratum overlays -->
-  <string name="filter_substratum_apps">Substratum overlays</string>
-  <string name="menu_show_substratum">Show overlays</string>
-  <string name="menu_hide_substratum">Hide overlays</string>
+  <string name="filter_substratum_apps">Substratumオーバーレイ</string>
+  <string name="menu_show_substratum">オーバーレイを表示する</string>
+  <string name="menu_hide_substratum">オーバーレイを非表示にする</string>
   <!-- App details: open play store link if app is user installed -->
   <string name="app_play_store">Google Play</string>
   <!-- Battery Saver Settings -->
@@ -131,33 +131,33 @@
   <!-- Model Name -->
   <string name="model_name">モデル名</string>
   <!-- Phone info shortcut -->
-  <string name="device_info_title">Phone info</string>
+  <string name="device_info_title">携帯電話情報</string>
   <!-- Display Settings -->
   <!-- Doze pulse options -->
   <string name="summary_doze_enabled">有効</string>
   <string name="summary_doze_disabled">無効</string>
   <string name="doze_overwrite_value_title">既定値を上書きする</string>
-  <string name="doze_overwrite_value_summary">ユーザー設定での既定値の上書きを許可する</string>
+  <string name="doze_overwrite_value_summary">ユーザー設定による既定値の上書きを許可する</string>
   <string name="doze_pulse_title">ユーザー設定</string>
   <string name="doze_pulse_duration_in_title">フェードイン</string>
   <string name="doze_pulse_duration_visible_title">表示時間</string>
   <string name="doze_pulse_duration_out_title">フェードアウト</string>
-  <string name="doze_trigger_pickup_title">トリガーとするセンサーを選択</string>
-  <string name="doze_trigger_pickup_summary_on">パルスは選択したセンサーによって引き起こされます</string>
-  <string name="doze_trigger_pickup_summary_off">選択したセンサーはトリガーとして使われません</string>
-  <string name="doze_trigger_notification_title">通知によるトリガー</string>
-  <string name="doze_trigger_notification_summary_on">パルスは通知によって引き起こされます</string>
-  <string name="doze_trigger_notification_summary_off">通知はトリガーとして使われません</string>
+  <string name="doze_trigger_pickup_title">端末持ち上げセンサーによる復帰</string>
+  <string name="doze_trigger_pickup_summary_on">持ち上げセンサーによるスリープ復帰は有効です</string>
+  <string name="doze_trigger_pickup_summary_off">持ち上げセンサーによるスリープ復帰は行われません</string>
+  <string name="doze_trigger_notification_title">通知による復帰</string>
+  <string name="doze_trigger_notification_summary_on">通知によるスリープ復帰は有効です</string>
+  <string name="doze_trigger_notification_summary_off">通知によるスリープ復帰は行われません</string>
   <string name="doze_brightness_level_title">明るさのレベル</string>
   <string name="onehundred_ms">100 ms</string>
   <string name="twofifty_ms">250 ms</string>
-  <string name="fivehundred_ms_default">500 ms (既定値)</string>
+  <string name="fivehundred_ms_default">500 ms (デフォルト)</string>
   <string name="sevenfifty_ms">750 ms</string>
   <string name="one_second">1 s</string>
   <string name="onehalf_second">1.5 s</string>
   <string name="two_second">2 s</string>
   <string name="twohalf_second">2.5 s</string>
-  <string name="three_second_default">3 s (既定値)</string>
+  <string name="three_second_default">3 s (デフォルト)</string>
   <string name="threehalf_second">3.5 s</string>
   <string name="four_second">4 s</string>
   <string name="fourhalf_second">4.5 s</string>
@@ -207,16 +207,16 @@
   <!-- Volume settings - Volume adjustment sound -->
   <string name="volume_adjust_sounds_title">音量調節サウンド</string>
   <!-- Category title for Charging sounds -->
-  <string name="power_notifications_category_title">Charging sounds</string>
+  <string name="power_notifications_category_title">充電サウンド</string>
   <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
-  <string name="power_notifications_enable_title">Enable</string>
-  <string name="power_notifications_enable_summary">Play a sound when connecting or disconnecting the charger</string>
+  <string name="power_notifications_enable_title">有効</string>
+  <string name="power_notifications_enable_summary">電源に接続または電源から切断された時に音を鳴らす</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
-  <string name="power_notifications_vibrate_title">Vibrate</string>
+  <string name="power_notifications_vibrate_title">バイブレーション</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
-  <string name="power_notifications_ringtone_title">Notification sound</string>
+  <string name="power_notifications_ringtone_title">通知音</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
-  <string name="power_notifications_ringtone_silent">Silent</string>
+  <string name="power_notifications_ringtone_silent">サイレント</string>
   <!-- Security Settings -->
   <!-- App ops permissions -->
   <string name="app_ops_permissions_allowed">許可</string>
@@ -396,12 +396,4 @@
   <string name="remove_blacklist_number_title">電話番号を削除する</string>
   <string name="remove_blacklist_entry">この着信拒否中の電話番号を削除しますか？</string>
   <string name="select_contact">連絡先を選択</string>
-  <!-- Storage settings -->
-  <!-- Advanced storage settings -->
-  <string name="storage_advanced_titlebar">Advanced Storage</string>
-  <string name="storage_menu_advanced">Advanced</string>
-  <!-- USB data automatic unlock -->
-  <string name="usb_data_auto_unlock_title">Unlock USB data</string>
-  <string name="usb_data_auto_unlock_summary">Allow unlocked data access to your phone\'s storage through USB (MTP, PTP)</string>
-  <string name="usb_data_auto_unlock_warning_summary">お使いの端末は、PCに接続するたびに保護されていない接続を確立するようになります。画面ロックが有効の場合はこの機能は自動で無効になります。\n\nこれはまだ実験的な機能のため、注意して使用してください。</string>
 </resources>

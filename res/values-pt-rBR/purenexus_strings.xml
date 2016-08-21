@@ -131,7 +131,7 @@
   <!-- Model Name -->
   <string name="model_name">Nome do modelo</string>
   <!-- Phone info shortcut -->
-  <string name="device_info_title">Phone info</string>
+  <string name="device_info_title">Informação do telefone</string>
   <!-- Display Settings -->
   <!-- Doze pulse options -->
   <string name="summary_doze_enabled">Habilitado</string>
@@ -207,16 +207,16 @@
   <!-- Volume settings - Volume adjustment sound -->
   <string name="volume_adjust_sounds_title">Ajuste do volume dos sons</string>
   <!-- Category title for Charging sounds -->
-  <string name="power_notifications_category_title">Charging sounds</string>
+  <string name="power_notifications_category_title">Sons de carregamento</string>
   <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
-  <string name="power_notifications_enable_title">Enable</string>
-  <string name="power_notifications_enable_summary">Play a sound when connecting or disconnecting the charger</string>
+  <string name="power_notifications_enable_title">Habilitar</string>
+  <string name="power_notifications_enable_summary">Tocar um som quando conectar ou desconectar o carregador</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
-  <string name="power_notifications_vibrate_title">Vibrate</string>
+  <string name="power_notifications_vibrate_title">Vibrar</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
-  <string name="power_notifications_ringtone_title">Notification sound</string>
+  <string name="power_notifications_ringtone_title">Som de notificação</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
-  <string name="power_notifications_ringtone_silent">Silent</string>
+  <string name="power_notifications_ringtone_silent">Silencioso</string>
   <!-- Security Settings -->
   <!-- App ops permissions -->
   <string name="app_ops_permissions_allowed">Permitidos</string>
@@ -396,12 +396,4 @@
   <string name="remove_blacklist_number_title">Remover Número</string>
   <string name="remove_blacklist_entry">Você quer remover este número de telefone bloqueado?</string>
   <string name="select_contact">Selecionar Contato</string>
-  <!-- Storage settings -->
-  <!-- Advanced storage settings -->
-  <string name="storage_advanced_titlebar">Armazenamento Avançado</string>
-  <string name="storage_menu_advanced">Avançado</string>
-  <!-- USB data automatic unlock -->
-  <string name="usb_data_auto_unlock_title">Desbloquear dados do USB</string>
-  <string name="usb_data_auto_unlock_summary">Permite desbloquear o acesso de dados para o armazenamento do seu telefone através do USB (MTP, PTP)</string>
-  <string name="usb_data_auto_unlock_warning_summary">Seu dispositivo irá estabelecer conexões desprotegidas, toda vez que você conectá-lo a um PC. Bloqueios de tela seguros desabilitam esta opção automaticamente.\n\nEsta é ainda uma característica experimental, use com cautela.</string>
 </resources>

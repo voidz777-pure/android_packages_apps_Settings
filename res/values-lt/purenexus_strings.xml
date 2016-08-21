@@ -131,7 +131,7 @@
   <!-- Model Name -->
   <string name="model_name">Modelio vardas</string>
   <!-- Phone info shortcut -->
-  <string name="device_info_title">Phone info</string>
+  <string name="device_info_title">Įrenginio informacija</string>
   <!-- Display Settings -->
   <!-- Doze pulse options -->
   <string name="summary_doze_enabled">Įgalintas</string>
@@ -207,16 +207,16 @@
   <!-- Volume settings - Volume adjustment sound -->
   <string name="volume_adjust_sounds_title">Garsumo reguliavimo garsai</string>
   <!-- Category title for Charging sounds -->
-  <string name="power_notifications_category_title">Charging sounds</string>
+  <string name="power_notifications_category_title">Įkrovimo garsai</string>
   <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
-  <string name="power_notifications_enable_title">Enable</string>
-  <string name="power_notifications_enable_summary">Play a sound when connecting or disconnecting the charger</string>
+  <string name="power_notifications_enable_title">Įgalinti</string>
+  <string name="power_notifications_enable_summary">Groti garsą prijungiant arba atjungiant įkroviklį</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
-  <string name="power_notifications_vibrate_title">Vibrate</string>
+  <string name="power_notifications_vibrate_title">Vibruoti</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
-  <string name="power_notifications_ringtone_title">Notification sound</string>
+  <string name="power_notifications_ringtone_title">Pranešimo garsas</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
-  <string name="power_notifications_ringtone_silent">Silent</string>
+  <string name="power_notifications_ringtone_silent">Begarsė</string>
   <!-- Security Settings -->
   <!-- App ops permissions -->
   <string name="app_ops_permissions_allowed">Leidžiamas</string>
@@ -396,12 +396,4 @@
   <string name="remove_blacklist_number_title">Pašalinti numerį</string>
   <string name="remove_blacklist_entry">Ar jūs norite pašalinti šį užblokuotą numerį?</string>
   <string name="select_contact">Pasirinkti kontaktą</string>
-  <!-- Storage settings -->
-  <!-- Advanced storage settings -->
-  <string name="storage_advanced_titlebar">Saugyklos išplėstiniai</string>
-  <string name="storage_menu_advanced">Išplėstiniai</string>
-  <!-- USB data automatic unlock -->
-  <string name="usb_data_auto_unlock_title">Atrakinti USB duomenis</string>
-  <string name="usb_data_auto_unlock_summary">Leidžia atrakinti duomenų prieiga prie jūsų telefono saugyklos per USB (MTP, PTP)</string>
-  <string name="usb_data_auto_unlock_warning_summary">Jūsų įrenginys bus nustatytas neapsaugotiems ryšiams kaskart prijungiant prie PC. Apsaugoti ekrano užraktai automatiškai išjungia šią parinktį.\n\nTai vis dar yra eksperimentinė įpatybė. Naudokite atsargiai.</string>
 </resources>

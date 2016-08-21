@@ -131,7 +131,7 @@
   <!-- Model Name -->
   <string name="model_name">Модель</string>
   <!-- Phone info shortcut -->
-  <string name="device_info_title">Phone info</string>
+  <string name="device_info_title">Информация о телефоне</string>
   <!-- Display Settings -->
   <!-- Doze pulse options -->
   <string name="summary_doze_enabled">Включен</string>
@@ -207,16 +207,16 @@
   <!-- Volume settings - Volume adjustment sound -->
   <string name="volume_adjust_sounds_title">Звук при регулировке громкости</string>
   <!-- Category title for Charging sounds -->
-  <string name="power_notifications_category_title">Charging sounds</string>
+  <string name="power_notifications_category_title">Звуки зарядки</string>
   <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
-  <string name="power_notifications_enable_title">Enable</string>
-  <string name="power_notifications_enable_summary">Play a sound when connecting or disconnecting the charger</string>
+  <string name="power_notifications_enable_title">Включить</string>
+  <string name="power_notifications_enable_summary">Воспроизводить звук при подключении или отключении зарядного устройства</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
-  <string name="power_notifications_vibrate_title">Vibrate</string>
+  <string name="power_notifications_vibrate_title">Вибрация</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
-  <string name="power_notifications_ringtone_title">Notification sound</string>
+  <string name="power_notifications_ringtone_title">Звук уведомления</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
-  <string name="power_notifications_ringtone_silent">Silent</string>
+  <string name="power_notifications_ringtone_silent">Беззвучный</string>
   <!-- Security Settings -->
   <!-- App ops permissions -->
   <string name="app_ops_permissions_allowed">Разрешено</string>
@@ -396,12 +396,4 @@
   <string name="remove_blacklist_number_title">Удалить номер</string>
   <string name="remove_blacklist_entry">Вы действительно хотите удалить данный номер из чёрного списка?</string>
   <string name="select_contact">Выбрать контакт</string>
-  <!-- Storage settings -->
-  <!-- Advanced storage settings -->
-  <string name="storage_advanced_titlebar">Дополнительные настройки</string>
-  <string name="storage_menu_advanced">Дополнительные настройки</string>
-  <!-- USB data automatic unlock -->
-  <string name="usb_data_auto_unlock_title">Разблокировать доступ по USB</string>
-  <string name="usb_data_auto_unlock_summary">Разрешать передачу данных по USB (MTP, PTP)</string>
-  <string name="usb_data_auto_unlock_warning_summary">Соединение с ПК каждый раз будет создавать незащищенные соединения. Пароль на экране блокировки отключает эту функцию автоматически.\n\nЭто всё ещё экспериментальная функция, используйте с осторожностью.</string>
 </resources>
